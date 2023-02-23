@@ -16,4 +16,7 @@ else {
     alert("username or password incorrect")
     
 }
+function logout(){
+    window.location.href="index.html";
+}
 }

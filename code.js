@@ -12,6 +12,9 @@ if (username=='urenzetti'&&password=='2352323'){
 if (username=='papa'&&password=="yuna"){
     window.location.href="wrenzetti.html"
 }
+if (username=='Maman'&&password=='Maman'){
+    
+}
 else {
     alert("username or password incorrect")
     

@@ -13,12 +13,10 @@ if (username=='papa'&&password=="yuna"){
     window.location.href="wrenzetti.html"
 }
 if (username=='Maman'&&password=='Maman'){
+    window.location.href="crenzetti.html"
     
 }
-else {
-    alert("username or password incorrect")
-    
-}
+
 function logout(){
     window.location.href="index.html";
 }

@@ -17,7 +17,8 @@ if (username=='Maman'&&password=='Maman'){
     
 }
 
-function logout(){
-    window.location.href="index.html";
+
 }
+function logout (){
+    window.location.href="index.html";
 }

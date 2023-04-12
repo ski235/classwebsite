@@ -12,10 +12,9 @@
 
 <body>
     <menu type="toolbar">
-        <div id="title"><strong><U style="color: red;"><h1 style="color: red;">Votre espace élève </h1></U></strong></div>
+        <div id="title"><strong><h1 style="color: black;">Votre espace élève </h1></strong></div>
         
-
-        <button onclick="logout()">se deconnecter</button>
+<!--Style-->
     </menu>
     <style>table,tr{
         align-self: center;
@@ -24,30 +23,46 @@
     }
     #title{ color: black;}
     table{
-        border: 2px  solid white ;
+        border: 2px  solid black ;
     }
     body{
         background-color: lightblue;
     }
+
+    <!--Leçons-->
     </style>
-    <div id="lessons" style="border: black 100px;"><U style="color: red;"><h1 style="color: red;">leçons</h1></U> <U><h2>cours sans video </h2></U>
-        <h4> git init pour crer un projet</h4><br>
-       <h4>  git remote add + nom + adrsse</h4><button onclick="window.location.href='Leçon no 3.pptx'">cliquez ici pour telecharger</button></div>
+    <h1>Vos leçons</h1>
+        <menu type="toolbar">
+    <div id  style="color: black ;"><h1 
+    Leçons</h1>
+
+<h3> Git init pour créer un projet</h3>
+<h3>Git remote add + nom + adresse </h3>
+<h3>Les chiffres en chinois </h3></div>
+<button onclick="window.location.href='Leçon no 3.pptx'">Cliquez ici pour telecharger</button>
+</button></div><br><br/>
+<h1>Vos notes</h1>
    
 
     <table>
         <tr><td>interro md 18</td></tr>
         <td>interro orale echecs 19</td>
         <tr><td> interro terminal 20 </td>
-            <td>interro badminton 18.5
+        <tr></tr><td>interro badminton 18.5
 
             </td>
         </tr>
-        <h1>Vos notes </h1>
-    </table>
+     <!--Vos devoirs-->
     <table><h1>Vos devoirs</h1>
-    <h4>envoyer une image d'une pièce d'echecs avec ces mouvements donné par RENZETTI YUNA à envoyer par e-mail</h4></table>
-    <div id="info"><U><h1>Informations</h1></U><h2>Les bulletins sont bientôts prêts</h2></div>
+    <h4></h4></table>
+    <div id="info"><h1>Informations</h1><h3>Les bulletins sont bientôts prêts</h3></div>
     
+
+
+
+
+
+    
+    <button onclick="logout()">se deconnecter</button>
 </body>
 </html>
